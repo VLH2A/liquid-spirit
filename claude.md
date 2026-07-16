@@ -27,4 +27,4 @@ No drive-by refactors. Change only the files listed for the current slice.
 
 Stack
 
-Python, Streamlit, Anthropic API (vision for menu reading, text for analysis), one JSON knowledge base. API key in .env, never in code, never in the bundle.
+Python, Streamlit, Kilo gateway (OpenAI-compatible — vision for menu reading, text for analysis), one JSON knowledge base. Gateway base URL / key / model in .env, never in code, never in the bundle.
